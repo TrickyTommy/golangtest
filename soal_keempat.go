@@ -39,7 +39,7 @@ func main() {
 		}
 		tries++
 		if high <= low {
-			fmt.Println("You're confusing me, I give up.")
+			fmt.Println("Bingung saya menyerah")
 			break
 		}
 		guess = randomI(low, high)
