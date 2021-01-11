@@ -27,14 +27,15 @@ func main() {
 	tries := 1
 	// reply := guess
 	for {
-		fmt.Println("I guess", guess)
-		fmt.Println("Is that:")
+		fmt.Print("Saya tebak ", guess)
+		fmt.Println(" apakah benar? ")
 
 		if guess == hasil {
-			fmt.Println("It took me", tries, "tries to guess correctly.")
+			fmt.Println(" Benar !!!,hasil random", hasil)
+			fmt.Println("Itu membutuhkan program ini sebanyak", tries, "sehingga menemukan angka random yang di tentukan")
 			break
 		} else {
-			fmt.Println("You entered,", guess, "Please try again")
+			fmt.Println("hasil tebakan adalah", guess, "Coba Lagi")
 		}
 		tries++
 		if high <= low {
